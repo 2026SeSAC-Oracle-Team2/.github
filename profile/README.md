@@ -62,6 +62,10 @@ Whisper large-v3-turbo에 LoRA 어댑터(q/k/v/out, 0.8%)를 학습했습니다.
 
 ## 🏗️ 시스템 아키텍처
 
+<p align="center">
+  <img src="assets/architecture.png" alt="System Architecture" width="720">
+</p>
+
 ```
 [Android 앱]                      [Spring Boot Backend]              [FastAPI AI 서버]
  Kotlin · MVVM          ──HTTP──>  Kotlin · JPA · Security   ──────>  Whisper + LoRA STT
@@ -77,6 +81,16 @@ Whisper large-v3-turbo에 LoRA 어댑터(q/k/v/out, 0.8%)를 학습했습니다.
 | **Kotlin** | Android 앱 + Spring Boot 백엔드 — 화면·음성 녹음·인증·세션·API·데이터 연동 |
 | **Python** | FastAPI AI 서버 — STT·TTS·LLM 연습 결과와 피드백 생성 |
 | **SQL · HTML/CSS** | Oracle 스키마·마이그레이션, Jinja2 웹 관리자 페이지 |
+
+---
+
+## 🗄️ 데이터베이스 (ERD)
+
+<p align="center">
+  <img src="assets/erd.png" alt="덕담 ERD — Oracle 12테이블" width="900">
+</p>
+
+> Oracle XE 21c — 사용자·세션·음성·콘텐츠 도메인 12테이블. 상세 설계는 [Documentations/04_Database_Design.md](https://github.com/2026SeSAC-Oracle-Team2/Documentations/blob/main/04_Database_Design.md) 참고.
 
 ---
 

@@ -1,0 +1,111 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1870" height="565" viewBox="0 0 1870 565">
+<rect width="1870" height="565" fill="white"/>
+<path d="M 655 105 L 480 105 L 480 225 L 305 225" fill="none" stroke="#555555" stroke-width="1.5"/>
+<polygon points="305,225 313,221 313,229" fill="#555555"/>
+<text x="480" y="221" font-size="11" fill="#555555" text-anchor="middle" font-family="sans-serif" font-weight="bold">1 : 1</text>
+<path d="M 655 105 L 540 105 L 540 375 L 425 375" fill="none" stroke="#555555" stroke-width="1.5"/>
+<polygon points="425,375 433,371 433,379" fill="#555555"/>
+<text x="540" y="371" font-size="11" fill="#555555" text-anchor="middle" font-family="sans-serif" font-weight="bold">1 : 1</text>
+<path d="M 655 105 L 585 105" fill="none" stroke="#555555" stroke-width="1.5"/>
+<polygon points="585,105 593,101 593,109" fill="#555555"/>
+<text x="585" y="101" font-size="11" fill="#555555" text-anchor="middle" font-family="sans-serif" font-weight="bold">1 : N</text>
+<path d="M 275 105 L 325 105" fill="none" stroke="#555555" stroke-width="1.5"/>
+<polygon points="325,105 317,109 317,101" fill="#555555"/>
+<text x="325" y="101" font-size="11" fill="#555555" text-anchor="middle" font-family="sans-serif" font-weight="bold">1 : N</text>
+<path d="M 905 105 L 995 105" fill="none" stroke="#555555" stroke-width="1.5"/>
+<polygon points="995,105 987,109 987,101" fill="#555555"/>
+<text x="995" y="101" font-size="11" fill="#555555" text-anchor="middle" font-family="sans-serif" font-weight="bold">1 : N</text>
+<path d="M 1245 105 L 1285 105" fill="none" stroke="#555555" stroke-width="1.5"/>
+<polygon points="1285,105 1277,109 1277,101" fill="#555555"/>
+<text x="1285" y="101" font-size="11" fill="#555555" text-anchor="middle" font-family="sans-serif" font-weight="bold">1 : N</text>
+<path d="M 1585 105 L 1535 105" fill="none" stroke="#555555" stroke-width="1.5"/>
+<polygon points="1535,105 1543,101 1543,109" fill="#555555"/>
+<text x="1535" y="101" font-size="11" fill="#555555" text-anchor="middle" font-family="sans-serif" font-weight="bold">1 : N</text>
+<path d="M 1410 185 L 1410 350 L 1245 350" fill="none" stroke="#555555" stroke-width="1.5"/>
+<polygon points="1245,350 1253,346 1253,354" fill="#555555"/>
+<text x="1410" y="346" font-size="11" fill="#555555" text-anchor="middle" font-family="sans-serif" font-weight="bold">1 : N</text>
+<path d="M 1120 185 L 1120 260" fill="none" stroke="#555555" stroke-width="1.5"/>
+<polygon points="1120,260 1116,252 1124,252" fill="#555555"/>
+<text x="1120" y="256" font-size="11" fill="#555555" text-anchor="middle" font-family="sans-serif" font-weight="bold">1 : N</text>
+<path d="M 905 105 L 950 105 L 950 350 L 995 350" fill="none" stroke="#555555" stroke-width="1.5"/>
+<polygon points="995,350 987,354 987,346" fill="#555555"/>
+<text x="950" y="346" font-size="11" fill="#555555" text-anchor="middle" font-family="sans-serif" font-weight="bold">1 : N</text>
+<path d="M 1410 185 L 1410 410" fill="none" stroke="#555555" stroke-width="1.5"/>
+<polygon points="1410,410 1406,402 1414,402" fill="#555555"/>
+<text x="1410" y="406" font-size="11" fill="#555555" text-anchor="middle" font-family="sans-serif" font-weight="bold">N : M (TURN_IMAGE)</text>
+<path d="M 1535 475 L 1585 475" fill="none" stroke="#555555" stroke-width="1.5"/>
+<polygon points="1585,475 1577,479 1577,471" fill="#555555"/>
+<text x="1585" y="471" font-size="11" fill="#555555" text-anchor="middle" font-family="sans-serif" font-weight="bold">1 : N</text>
+<rect x="655" y="40" width="250" height="130" fill="#dae8fc" stroke="#6c8ebf" stroke-width="1.5" rx="3"/>
+<text x="780" y="69" font-size="8" fill="#000000" text-anchor="middle" font-family="sans-serif" dominant-baseline="middle" font-weight="bold">APP_USER (계정 식별 인증정보)PK  ID (NUMBER 19, IDENTITY)</text>
+<text x="780" y="85" font-size="12" fill="#000000" text-anchor="middle" font-family="sans-serif" dominant-baseline="middle" font-weight="bold">UUID (UNIQUE)</text>
+<text x="780" y="101" font-size="12" fill="#000000" text-anchor="middle" font-family="sans-serif" dominant-baseline="middle" font-weight="bold">FIREBASE_UID (UNIQUE)</text>
+<text x="780" y="117" font-size="12" fill="#000000" text-anchor="middle" font-family="sans-serif" dominant-baseline="middle" font-weight="bold">EMAIL (UNIQUE)</text>
+<text x="780" y="133" font-size="12" fill="#000000" text-anchor="middle" font-family="sans-serif" dominant-baseline="middle" font-weight="bold">SOCIAL_PROVIDER / SOCIAL_ID</text>
+<text x="780" y="149" font-size="12" fill="#000000" text-anchor="middle" font-family="sans-serif" dominant-baseline="middle" font-weight="bold">CREATED_AT / UPDATED_AT</text>
+<rect x="45" y="160" width="260" height="130" fill="#dae8fc" stroke="#6c8ebf" stroke-width="1.5" rx="3"/>
+<text x="175" y="189" font-size="12" fill="#000000" text-anchor="middle" font-family="sans-serif" dominant-baseline="middle" font-weight="bold">USER_PROFILE (프로필)PK  ID</text>
+<text x="175" y="205" font-size="12" fill="#000000" text-anchor="middle" font-family="sans-serif" dominant-baseline="middle" font-weight="bold">FK  USER_ID (UNIQUE → APP_USER)</text>
+<text x="175" y="221" font-size="12" fill="#000000" text-anchor="middle" font-family="sans-serif" dominant-baseline="middle" font-weight="bold">NICKNAME / SEX / BIRTH_DATE</text>
+<text x="175" y="237" font-size="12" fill="#000000" text-anchor="middle" font-family="sans-serif" dominant-baseline="middle" font-weight="bold">HOBBIES / USER_MEMORY (CLOB)</text>
+<text x="175" y="253" font-size="12" fill="#000000" text-anchor="middle" font-family="sans-serif" dominant-baseline="middle" font-weight="bold">PROFILE_IMAGE_BUCKET_PATH</text>
+<text x="175" y="269" font-size="12" fill="#000000" text-anchor="middle" font-family="sans-serif" dominant-baseline="middle" font-weight="bold">CREATED_AT / UPDATED_AT</text>
+<rect x="45" y="310" width="380" height="130" fill="#dae8fc" stroke="#6c8ebf" stroke-width="1.5" rx="3"/>
+<text x="235" y="347" font-size="9" fill="#000000" text-anchor="middle" font-family="sans-serif" dominant-baseline="middle" font-weight="bold">USER_REPRESENTATIVE_SCORES(유저별 지표 사전 계산값)FK USER_ID (→ APP_USER)</text>
+<text x="235" y="363" font-size="12" fill="#000000" text-anchor="middle" font-family="sans-serif" dominant-baseline="middle" font-weight="bold">USER_AQ</text>
+<text x="235" y="379" font-size="12" fill="#000000" text-anchor="middle" font-family="sans-serif" dominant-baseline="middle" font-weight="bold">USER_SCORE_LISTEN / NAMING /</text>
+<text x="235" y="395" font-size="12" fill="#000000" text-anchor="middle" font-family="sans-serif" dominant-baseline="middle" font-weight="bold">SHADOWING / SELF_TALK</text>
+<text x="235" y="411" font-size="12" fill="#000000" text-anchor="middle" font-family="sans-serif" dominant-baseline="middle" font-weight="bold">UPDATED_AT</text>
+<rect x="25" y="60" width="250" height="90" fill="#d5e8d4" stroke="#82b366" stroke-width="1.5" rx="3"/>
+<text x="150" y="101" font-size="12" fill="#000000" text-anchor="middle" font-family="sans-serif" dominant-baseline="middle" font-weight="bold">TAGS (관심사 15종)PK  TAG_ID</text>
+<text x="150" y="117" font-size="12" fill="#000000" text-anchor="middle" font-family="sans-serif" dominant-baseline="middle" font-weight="bold">TAG</text>
+<rect x="325" y="55" width="260" height="100" fill="#d5e8d4" stroke="#82b366" stroke-width="1.5" rx="3"/>
+<text x="455" y="93" font-size="9" fill="#000000" text-anchor="middle" font-family="sans-serif" dominant-baseline="middle" font-weight="bold">USER_PROFILE_TAGSFK  USER_ID (→ APP_USER)</text>
+<text x="455" y="109" font-size="12" fill="#000000" text-anchor="middle" font-family="sans-serif" dominant-baseline="middle" font-weight="bold">FK  TAG_ID (→ TAGS)</text>
+<text x="455" y="125" font-size="12" fill="#000000" text-anchor="middle" font-family="sans-serif" dominant-baseline="middle" font-weight="bold">(N:M 해소 — 최대 5개/유저)</text>
+<rect x="995" y="25" width="250" height="160" fill="#ffe6cc" stroke="#d79b00" stroke-width="1.5" rx="3"/>
+<text x="1120" y="53" font-size="12" fill="#000000" text-anchor="middle" font-family="sans-serif" dominant-baseline="middle" font-weight="bold">LEARNING_SESSION (세션)PK  ID</text>
+<text x="1120" y="69" font-size="12" fill="#000000" text-anchor="middle" font-family="sans-serif" dominant-baseline="middle" font-weight="bold">FK  USER_ID (→ APP_USER)</text>
+<text x="1120" y="85" font-size="12" fill="#000000" text-anchor="middle" font-family="sans-serif" dominant-baseline="middle" font-weight="bold">THEME / TYPE / SESSION_NAME</text>
+<text x="1120" y="101" font-size="11" fill="#000000" text-anchor="middle" font-family="sans-serif" dominant-baseline="middle" font-weight="bold">STATUS (IN_PROGRESS · COMPLETED ·</text>
+<text x="1120" y="117" font-size="12" fill="#000000" text-anchor="middle" font-family="sans-serif" dominant-baseline="middle" font-weight="bold">COMPLETED_NO_TALK)</text>
+<text x="1120" y="133" font-size="12" fill="#000000" text-anchor="middle" font-family="sans-serif" dominant-baseline="middle" font-weight="bold">AQ + 피드백 6컬럼</text>
+<text x="1120" y="149" font-size="12" fill="#000000" text-anchor="middle" font-family="sans-serif" dominant-baseline="middle" font-weight="bold">REPORT_VIEWED_AT</text>
+<text x="1120" y="165" font-size="12" fill="#000000" text-anchor="middle" font-family="sans-serif" dominant-baseline="middle" font-weight="bold">CREATED_AT / UPDATED_AT</text>
+<rect x="1285" y="25" width="250" height="160" fill="#ffe6cc" stroke="#d79b00" stroke-width="1.5" rx="3"/>
+<text x="1410" y="53" font-size="12" fill="#000000" text-anchor="middle" font-family="sans-serif" dominant-baseline="middle" font-weight="bold">TURN (문제·대화 턴)PK  ID</text>
+<text x="1410" y="69" font-size="11" fill="#000000" text-anchor="middle" font-family="sans-serif" dominant-baseline="middle" font-weight="bold">FK  SESSION_ID (→ LEARNING_SESSION)</text>
+<text x="1410" y="85" font-size="11" fill="#000000" text-anchor="middle" font-family="sans-serif" dominant-baseline="middle" font-weight="bold">FK  CONTENT_TYPE (→ CONTENT_TYPE)</text>
+<text x="1410" y="101" font-size="12" fill="#000000" text-anchor="middle" font-family="sans-serif" dominant-baseline="middle" font-weight="bold">TURN_NUMBER / SCORE / STATUS</text>
+<text x="1410" y="117" font-size="12" fill="#000000" text-anchor="middle" font-family="sans-serif" dominant-baseline="middle" font-weight="bold">PROMPT_TEXT / ANSWER_TEXT</text>
+<text x="1410" y="133" font-size="12" fill="#000000" text-anchor="middle" font-family="sans-serif" dominant-baseline="middle" font-weight="bold">CHOICES_JSON / CORRECT_VALUE</text>
+<text x="1410" y="149" font-size="12" fill="#000000" text-anchor="middle" font-family="sans-serif" dominant-baseline="middle" font-weight="bold">SELECTED_VALUE / HINTS_SHOWN</text>
+<text x="1410" y="165" font-size="12" fill="#000000" text-anchor="middle" font-family="sans-serif" dominant-baseline="middle" font-weight="bold">CREATED_AT</text>
+<rect x="995" y="260" width="250" height="180" fill="#f8cecc" stroke="#b85450" stroke-width="1.5" rx="3"/>
+<text x="1120" y="290" font-size="12" fill="#000000" text-anchor="middle" font-family="sans-serif" dominant-baseline="middle" font-weight="bold">VOICE_RECORD (음성 메타)PK  ID</text>
+<text x="1120" y="306" font-size="12" fill="#000000" text-anchor="middle" font-family="sans-serif" dominant-baseline="middle" font-weight="bold">FK  TURN_ID (→ TURN)</text>
+<text x="1120" y="322" font-size="11" fill="#000000" text-anchor="middle" font-family="sans-serif" dominant-baseline="middle" font-weight="bold">FK  SESSION_ID (→ LEARNING_SESSION)</text>
+<text x="1120" y="338" font-size="12" fill="#000000" text-anchor="middle" font-family="sans-serif" dominant-baseline="middle" font-weight="bold">FK  USER_ID (→ APP_USER)</text>
+<text x="1120" y="354" font-size="11" fill="#000000" text-anchor="middle" font-family="sans-serif" dominant-baseline="middle" font-weight="bold">SPEAKER (USER/AI · UNIQUE TURN+SPK)</text>
+<text x="1120" y="370" font-size="12" fill="#000000" text-anchor="middle" font-family="sans-serif" dominant-baseline="middle" font-weight="bold">VOICE_FILE_PATH (공유폴더→OCI)</text>
+<text x="1120" y="386" font-size="12" fill="#000000" text-anchor="middle" font-family="sans-serif" dominant-baseline="middle" font-weight="bold">DURATION_SECONDS / SYLLABLES /</text>
+<text x="1120" y="402" font-size="11" fill="#000000" text-anchor="middle" font-family="sans-serif" dominant-baseline="middle" font-weight="bold">SPEAKING_TIME / ARTICULATION_TIME</text>
+<text x="1120" y="418" font-size="12" fill="#000000" text-anchor="middle" font-family="sans-serif" dominant-baseline="middle" font-weight="bold">CREATED_AT</text>
+<rect x="1585" y="45" width="260" height="120" fill="#e1d5e7" stroke="#9673a6" stroke-width="1.5" rx="3"/>
+<text x="1715" y="69" font-size="12" fill="#000000" text-anchor="middle" font-family="sans-serif" dominant-baseline="middle" font-weight="bold">CONTENT_TYPE (룩업 6종)PK  TYPE_CODE</text>
+<text x="1715" y="85" font-size="12" fill="#000000" text-anchor="middle" font-family="sans-serif" dominant-baseline="middle" font-weight="bold">TYPE_NAME / CATEGORY</text>
+<text x="1715" y="101" font-size="12" fill="#000000" text-anchor="middle" font-family="sans-serif" dominant-baseline="middle" font-weight="bold">LISTEN_TEXT · LISTEN_PICTURE ·</text>
+<text x="1715" y="117" font-size="12" fill="#000000" text-anchor="middle" font-family="sans-serif" dominant-baseline="middle" font-weight="bold">NAMING · SHADOWING · SELF_TALK ·</text>
+<text x="1715" y="133" font-size="12" fill="#000000" text-anchor="middle" font-family="sans-serif" dominant-baseline="middle" font-weight="bold">STORYTELLING</text>
+<text x="1715" y="149" font-size="12" fill="#000000" text-anchor="middle" font-family="sans-serif" dominant-baseline="middle" font-weight="bold">CREATED_AT</text>
+<rect x="1285" y="410" width="250" height="130" fill="#e1d5e7" stroke="#9673a6" stroke-width="1.5" rx="3"/>
+<text x="1410" y="447" font-size="11" fill="#000000" text-anchor="middle" font-family="sans-serif" dominant-baseline="middle" font-weight="bold">IMAGE_RESOURCE (이미지 풀)PK  IMAGE_ID</text>
+<text x="1410" y="463" font-size="12" fill="#000000" text-anchor="middle" font-family="sans-serif" dominant-baseline="middle" font-weight="bold">IMAGE_NAME / IMAGE_FILE_PATH</text>
+<text x="1410" y="479" font-size="12" fill="#000000" text-anchor="middle" font-family="sans-serif" dominant-baseline="middle" font-weight="bold">IMAGE_TAG_PATH (SELF_TALK용)</text>
+<text x="1410" y="495" font-size="12" fill="#000000" text-anchor="middle" font-family="sans-serif" dominant-baseline="middle" font-weight="bold">SEMANTIC_CUE / ARTICULATORY_CUE</text>
+<text x="1410" y="511" font-size="12" fill="#000000" text-anchor="middle" font-family="sans-serif" dominant-baseline="middle" font-weight="bold">CREATED_AT</text>
+<rect x="1585" y="425" width="250" height="100" fill="#e1d5e7" stroke="#9673a6" stroke-width="1.5" rx="3"/>
+<text x="1710" y="463" font-size="8" fill="#000000" text-anchor="middle" font-family="sans-serif" dominant-baseline="middle" font-weight="bold">IMAGE_THEMA (테마 매핑)PK  (IMAGE_ID + THEME) 복합</text>
+<text x="1710" y="479" font-size="12" fill="#000000" text-anchor="middle" font-family="sans-serif" dominant-baseline="middle" font-weight="bold">FK  IMAGE_ID (→ IMAGE_RESOURCE)</text>
+<text x="1710" y="495" font-size="12" fill="#000000" text-anchor="middle" font-family="sans-serif" dominant-baseline="middle" font-weight="bold">THEME (HOSPITAL · CAFE 등)</text>
+</svg>
